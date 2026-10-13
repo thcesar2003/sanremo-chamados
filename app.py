@@ -67,6 +67,13 @@ CATEGORIAS = [
 
 st.markdown("""
 <style>
+/* Corrige a cor dos rótulos de todos os campos */
+[data-testid="stMain"] [data-testid="stWidgetLabel"],
+[data-testid="stMain"] [data-testid="stWidgetLabel"] p,
+[data-testid="stMain"] .stSelectbox label,
+[data-testid="stMain"] .stNumberInput label {
+    color: #263b32 !important;
+}
 .stTextInput input,
 .stTextArea textarea,
 .stNumberInput input,
